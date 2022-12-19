@@ -1,4 +1,4 @@
-import starIcon from "../assets/icon-star.svg"
+import starIcon from "../../assets/icon-star.svg"
 import Title from "../Title.jsx"
 import Paragraph from "../Paragraph.jsx"
 import Rating from "../Rating.jsx"

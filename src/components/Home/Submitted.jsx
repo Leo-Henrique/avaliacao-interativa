@@ -1,4 +1,4 @@
-import illustration from "../assets/illustration-thank-you.svg"
+import illustration from "../../assets/illustration-thank-you.svg"
 import Title from "../Title.jsx"
 import Paragraph from "../Paragraph.jsx"
 import Button from "../Button.jsx"
