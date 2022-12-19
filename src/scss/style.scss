@@ -1,1 +1,6 @@
-@import "reset", "main";
+@import 
+"global/reset", 
+"global/variables", 
+"global/mixins";
+
+@import "main";

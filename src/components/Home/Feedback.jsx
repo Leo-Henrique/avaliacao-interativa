@@ -11,7 +11,7 @@ const Feedback = () => {
                 Um desafio de uma avaliação interativa. Utilizado React com JSX, componentes e Hooks!
             </h1>
 
-            <div>
+            <div className="star">
                 <img src={starIcon} 
                 alt="Ícone de uma estrela representando avaliações" />
             </div>

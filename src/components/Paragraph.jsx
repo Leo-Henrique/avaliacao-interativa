@@ -1,6 +1,6 @@
-const Paragraph = ({ text, align }) => {
+const Paragraph = ({ text }) => {
     return (
-        <p style={{ textAlign: align }}>
+        <p>
             {text}
         </p>
     )

@@ -8,7 +8,7 @@ const Rating = ({ total }) => {
         return array;
     }
     return (
-        <ul>
+        <ul className="rating">
             {amount().map(number => {
                 return (
                     <li key={number}>

@@ -1,6 +1,6 @@
-const Title = ({ text, align }) => {
+const Title = ({ text }) => {
     return (
-        <h2 style={{ textAlign: align }}>
+        <h2 className="title">
             {text}
         </h2>
     )

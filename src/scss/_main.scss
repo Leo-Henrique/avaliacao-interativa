@@ -1,0 +1,111 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1.5rem;
+    font: 400 1.5rem / 1.5 "Overpass", sans-serif;
+    color: $support-light-3;
+    background-color: $support-dark-1;
+
+    @include breakpoint-sm {
+        font-size: 1.4rem;
+    }
+}
+
+.card {
+    max-width: 410px;
+    width: 100%;
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: $support-dark-2;
+
+    h1 {
+        width: 0;
+        height: 0;
+        padding: 0;
+        border: none;
+        pointer-events: none;
+        overflow: hidden;
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        z-index: -9999;
+    }
+    .star {
+        @include circle;
+        margin-bottom: 3rem;
+    }
+    .title {
+        font-size: 2.6rem;
+        font-weight: 700;
+        color: $support-light-1;
+        margin-bottom: 1rem;
+    }
+    p {
+        margin-bottom: 2rem;
+    }
+    .rating {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+
+        button {
+            @include circle;
+            color: $support-light-2;
+            font-weight: 700;
+            transition-property: color, background-color;
+            transition-duration: 200ms;
+            transition-timing-function: ease-in-out;
+            cursor: pointer;
+
+            @include desktop-supported {
+                &:hover {
+                    color: $support-light-1;
+                    background-color: $primary;
+                }
+            }
+            &:active,
+            &.active {
+                color: $support-light-1;
+                background-color: $support-light-3;
+            }
+        }
+    }
+    > button {
+        @include button(
+            $support-light-1,
+            $primary,
+        )
+    }
+}
+
+.submitted {
+    text-align: center;
+
+    .illustration {
+        margin-bottom: 3rem;
+
+        img {
+            margin: 0 auto;
+        }
+    }
+    .user-rating {
+        display: inline-block;
+        border-radius: 20px;
+        background-color: $support-dark-3;
+        line-height: initial;
+        white-space: nowrap;
+        color: $primary;
+        padding: 0.7rem 1.8rem 0.5rem;
+        margin-bottom: 2rem;
+    }
+    > button {
+        @include button(
+            $primary,
+            $support-light-1,
+        )
+    }
+}
