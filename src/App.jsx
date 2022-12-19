@@ -1,8 +1,11 @@
-// import './App.css'
+import Feedback from "./components/Home/Feedback.jsx"
 
-function App() {
-
-  return <p>Hello World!</p>
+const App = () => {
+    return (
+        <main>
+            <Feedback />
+        </main>
+    )
 }
 
 export default App;
