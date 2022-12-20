@@ -9,9 +9,6 @@ const Feedback = ({ hooks }) => {
     const setContent = hooks.content[1];
     const [rating, setRating] = hooks.rating;
 
-    const changeContent = () => {
-        console.log("oi")
-    };
     return (
         <main className="card">
             <h1>
