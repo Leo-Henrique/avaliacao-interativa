@@ -5,7 +5,11 @@ import Button from "../Button.jsx"
 
 const Submitted = ( { hooks } ) => {
     const setContent = hooks.content[1];
-    const rating = hooks.rating[0];
+    const [rating, setRating] = hooks.rating;
+    const changeContent = () => {
+        setContent("feedback");
+        setRating(null);
+    }
     
     return (
         <main className="card submitted">
@@ -15,7 +19,7 @@ const Submitted = ( { hooks } ) => {
 
             <div className="illustration">
                 <img src={illustration} 
-                alt="Ilustração representando o recebimento do feedback por nós" />
+                alt="Ilustração representando o recebimento do feedback" />
             </div>
 
             <mark className="user-rating">
@@ -27,7 +31,7 @@ const Submitted = ( { hooks } ) => {
             <Paragraph text="Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte, não hesite em entrar em contato!" />
 
             <Button text="Voltar"
-            callback={() => setContent("feedback")} />
+            callback={changeContent} />
         </main>
     )
 }
