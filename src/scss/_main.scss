@@ -72,6 +72,9 @@ body {
                 color: $support-light-1;
                 background-color: $support-light-3;
             }
+            &.active {
+                cursor: initial;
+            }
         }
     }
     > button {

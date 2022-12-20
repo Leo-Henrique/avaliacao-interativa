@@ -37,18 +37,22 @@
     margin-top: 3rem;
     background-color: $bgColor;
     color: $color;
-    transition-property: color, background-color;
+    transition-property: color, background-color, opacity;
     transition-duration: 200ms;
     transition-timing-function: ease-in-out;
     cursor: pointer;
 
     @include desktop-supported {
-        &:hover {
+        &:not([disabled]):hover {
             background-color: $color;
             color: $bgColor;
         }
     }
-    &:active {
+    &:not([disabled]):active {
         background-color: $color - 30%;
+    }
+    &[disabled] {
+        opacity: 0.3;
+        cursor: default;
     }
 }
