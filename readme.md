@@ -4,24 +4,26 @@ Decidi escolher um projeto com um resultado bem simples pela plataforma Frontend
 
 Eu utilizei o [Vite](https://vitejs.dev/) para criar meu ambiente de desenvolvimento por se tratar de uma construção mais rápida e leve comparada ao **Create React App**, já que o desafio é bem descomplicado.
 
-https://user-images.githubusercontent.com/72027449/208735881-fe4c92c7-7a05-430a-ab26-18a106d3cc96.mp4
+![Captura de tela do projeto](https://user-images.githubusercontent.com/72027449/208747795-22f30fa6-28a5-46c3-a775-8a76f0d3969f.png)
 
-## 🚀 Iniciando
+## 🔗 Acesse o projeto
+
+* [Site ao vivo](https://leo-henrique.github.io/avaliacao-interativa/)
+* [Desafio no Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+
+## 🚀 Execute em sua máquina
 
 ### Instale as dependências:
 ```bash
 npm install
 ```
 
-### Minifique para produção:
-```bash
-npm run build
-```
-
 ### Veja o projeto em seu navegador:
 ```bash
 npm run preview
 ```
+
+Acesse em [http://localhost:4173/avaliacao-interativa](http://localhost:4173/avaliacao-interativa)
 
 ## 💡 Meus aprendizados
 
