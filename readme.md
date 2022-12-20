@@ -39,7 +39,7 @@ Confira os principais tópicos do React utilizados neste projeto:
 
 * fragmentar toda a interface em diferentes componentes, considerando reutilização, organização e possíveis manutenções / melhorias;
 
-* retornar HTML personalizado do componentes, manipulando o retorno com base nas propriedades / argumentos;
+* retornar HTML personalizado dos componentes, manipulando o retorno com base nas propriedades / argumentos;
 
 * deixar os componentes mais legíveis com a desestruturação das props.
 
