@@ -21,8 +21,6 @@ npm install
 npm run preview
 ```
 
-Acesse em [http://localhost:4173/avaliacao-interativa](http://localhost:4173/avaliacao-interativa)
-
 ## 💡 Meus aprendizados
 
 Eu optei por utilizar o [Vite](https://vitejs.dev/) para criar meu ambiente de desenvolvimento.
@@ -36,8 +34,6 @@ Confira meus principais aprendizados em relação ao React:
 * aproveitar ES6 modules nativo do JavaScript, que já possui um bom [suporte aos navegadores](https://caniuse.com/?search=es6%20modules);
 
 * utilizar uma configuração mínima do Vite para fazer o deploy deste projeto com o GitHub Pages.
-
-
 
 ### 👨‍💻 Na extensão de sintaxe JSX, pude principalmente:
 
