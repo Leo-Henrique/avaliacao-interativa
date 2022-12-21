@@ -2,8 +2,6 @@
 
 Decidi escolher um projeto com um resultado bem simples pela plataforma Frontend Mentor, mas que fosse possível já botar a mão na massa em conceitos trazidos pelo React, tais como **JSX**, **componentes** e o básico de hooks com **useState**.
 
-Eu utilizei o [Vite](https://vitejs.dev/) para criar meu ambiente de desenvolvimento por se tratar de uma construção mais rápida e leve comparada ao **Create React App**, já que o desafio é bem descomplicado.
-
 ![Captura de tela do projeto](https://user-images.githubusercontent.com/72027449/208747795-22f30fa6-28a5-46c3-a775-8a76f0d3969f.png)
 
 ## 🔗 Acesse o projeto
@@ -13,12 +11,12 @@ Eu utilizei o [Vite](https://vitejs.dev/) para criar meu ambiente de desenvolvim
 
 ## 🚀 Execute em sua máquina
 
-### Instale as dependências:
+### 👨‍💻 Instale as dependências:
 ```bash
 npm install
 ```
 
-### Veja o projeto em seu navegador:
+### 👨‍💻 Veja o projeto em seu navegador:
 ```bash
 npm run preview
 ```
@@ -27,9 +25,19 @@ Acesse em [http://localhost:4173/avaliacao-interativa](http://localhost:4173/ava
 
 ## 💡 Meus aprendizados
 
-Confira os principais tópicos do React utilizados neste projeto:
+Eu optei por utilizar o [Vite](https://vitejs.dev/) para criar meu ambiente de desenvolvimento.
 
-### Na extensão de sintaxe JSX, pude principalmente:
+Confira meus principais aprendizados em relação ao React:
+
+### ⚡ Com o Vite.js, pude principalmente:
+
+* criar um ambiente de desenvolvimento para React descomplicado e muito rápido;
+* aproveitar ES6 modules nativo do JavaScript, que já possui um bom [suporte aos navegadores](https://caniuse.com/?search=es6%20modules);
+* utilizar uma configuração mínima do Vite para fazer o deploy deste projeto com o GitHub Pages.
+
+* transformar os dados mutáveis em estados e renderizar componentes específicos com base nos estados atuais.
+
+### 👨‍💻 Na extensão de sintaxe JSX, pude principalmente:
 
 * utilizar todas as regras de escrita do JSX, considerando que se parece com HTML mas não é;
 
@@ -37,7 +45,7 @@ Confira os principais tópicos do React utilizados neste projeto:
 
 * retornar vários elementos HTML utilizando os itens de uma array como base.
 
-### Com os componentes React, pude principalmente:
+### 👨‍💻 Com os componentes React, pude principalmente:
 
 * fragmentar toda a interface em diferentes componentes, considerando reutilização, organização e possíveis manutenções / melhorias;
 
@@ -45,7 +53,7 @@ Confira os principais tópicos do React utilizados neste projeto:
 
 * deixar os componentes mais legíveis com a desestruturação das props.
 
-### Com o useState hook, pude principalmente:
+### 👨‍💻 Com o useState hook, pude principalmente:
 
 * identificar todos os dados mutáveis da minha interface – como o conteúdo do card e a avaliação selecionada, por exemplo;
 
