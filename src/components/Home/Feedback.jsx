@@ -17,7 +17,8 @@ const Feedback = ({ hooks }) => {
 
             <div className="star">
                 <img src={starIcon} 
-                alt="Ícone de uma estrela representando avaliações" />
+                alt=""
+                aria-hidden="true" />
             </div>
 
             <Title text="Como fizemos?" />
