@@ -32,10 +32,12 @@ Confira meus principais aprendizados em relação ao React:
 ### ⚡ Com o Vite.js, pude principalmente:
 
 * criar um ambiente de desenvolvimento para React descomplicado e muito rápido;
+
 * aproveitar ES6 modules nativo do JavaScript, que já possui um bom [suporte aos navegadores](https://caniuse.com/?search=es6%20modules);
+
 * utilizar uma configuração mínima do Vite para fazer o deploy deste projeto com o GitHub Pages.
 
-* transformar os dados mutáveis em estados e renderizar componentes específicos com base nos estados atuais.
+
 
 ### 👨‍💻 Na extensão de sintaxe JSX, pude principalmente:
 
