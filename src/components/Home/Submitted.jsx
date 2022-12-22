@@ -1,22 +1,16 @@
+import React from "react";
 import illustration from "../../assets/illustration-thank-you.svg"
 import Title from "../Title.jsx"
-import Paragraph from "../Paragraph.jsx"
-import Button from "../Button.jsx"
 
-const Submitted = ( { hooks } ) => {
-    const setContent = hooks.content[1];
-    const [rating, setRating] = hooks.rating;
-    const changeContent = () => {
-        setContent("feedback");
-        setRating(null);
-    }
-    
+const Submitted = ( { main: {current:  main }, rating} ) => {
+    React.useEffect(() => {
+        main.classList.add("submitted");
+
+        return () => main.classList.remove("submitted");
+    }, [])
+
     return (
-        <main className="card submitted">
-            <h1>
-                Um desafio de uma avaliação interativa. Utilizado React com JSX, componentes e Hooks!
-            </h1>
-
+        <>
             <div className="illustration">
                 <img src={illustration} 
                 alt="Ilustração representando o recebimento do feedback" />
@@ -28,11 +22,10 @@ const Submitted = ( { hooks } ) => {
 
             <Title text="Obrigado!" />
 
-            <Paragraph text="Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte, não hesite em entrar em contato!" />
-
-            <Button text="Voltar"
-            callback={changeContent} />
-        </main>
+            <p>
+                Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte, não hesite em entrar em contato!
+            </p>
+        </>
     )
 }
 

@@ -12,14 +12,25 @@ body {
     @include breakpoint-sm {
         font-size: 1.4rem;
     }
+
 }
 
 .card {
     max-width: 410px;
     width: 100%;
     padding: 3rem;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: $support-dark-2;
+    transition-property: transform, opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    transform: translate3D(-15px, 0, 0);
+    opacity: 0;    
+
+    &.show {
+        opacity: 1;
+        transform: none;
+    }
 
     h1 {
         width: 0;
