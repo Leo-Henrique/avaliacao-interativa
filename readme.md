@@ -1,6 +1,6 @@
 # Avaliação interativa com React utilizando useState | Desafio do Frontend Mentor
 
-Decidi escolher um projeto com um resultado bem simples pela plataforma Frontend Mentor, mas que fosse possível já botar a mão na massa em conceitos trazidos pelo React, tais como **JSX**, **componentes** e o básico de hooks com **useState**.
+Decidi escolher um projeto com um resultado bem simples pela plataforma Frontend Mentor, mas que fosse possível já botar a mão na massa em conceitos trazidos pelo React, tais como **JSX**, **componentes** e alguns **hooks** básicos do React.
 
 ![Captura de tela do projeto](https://user-images.githubusercontent.com/72027449/208747795-22f30fa6-28a5-46c3-a775-8a76f0d3969f.png)
 
