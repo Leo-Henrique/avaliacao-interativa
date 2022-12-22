@@ -56,3 +56,9 @@ Confira meus principais aprendizados em relação ao React:
 * identificar todos os dados mutáveis da minha interface – como o conteúdo do card e a avaliação selecionada, por exemplo;
 
 * transformar os dados mutáveis em estados e renderizar componentes específicos com base nos estados atuais.
+
+### 👨‍💻 Com outros hooks, pude principalmente:
+
+* fazer referência a um elemento DOM e utiliza-lo em diversos componentes diferentes com useRef;
+
+* setar comandos específicos em momentos diferentes do ciclo de vida de meus componentes com useEffect.
